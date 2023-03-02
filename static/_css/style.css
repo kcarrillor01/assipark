@@ -33,16 +33,35 @@ button{
 }
 
 button:hover{
+    border-bottom: 3px solid white;
+}
+
+button:active{
+    border-bottom: 3px solid white;
+}
+
+.login{
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc,
+    -.5rem -.5rem 1rem #fff
+}
+.login:hover{
     box-shadow: .5rem .5rem 1rem #fff,
     -.5rem -.5rem 1rem #ccc
 
 }
 
-button:active{
+.login:active{
     box-shadow: inset .2rem .2rem 1rem #fff,
     inset -.2rem -.2rem 1rem #ccc
-}
-.head .button{
 
 }
 #myForm{
