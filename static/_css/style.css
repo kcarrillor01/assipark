@@ -1,14 +1,48 @@
 body{
     font-family: "Franklin Gothic Medium";
-    background: linear-gradient(rgba(225, 0, 0, 1), rgba(255, 0, 230, 1));
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, purple, cyan);
 }
 .head{
     display: flex;
     justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+    padding: 5px 10px;
 }
 
 .head h1{
+
+}
+nav{
+    height: 100%;
+    width: 100%;
+}
+img{
+    width: 75px;
+}
+button{
+    background-color: transparent;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+button:hover{
+    box-shadow: .5rem .5rem 1rem #fff,
+    -.5rem -.5rem 1rem #ccc
+
+}
+
+button:active{
+    box-shadow: inset .2rem .2rem 1rem #fff,
+    inset -.2rem -.2rem 1rem #ccc
+}
+.head .button{
 
 }
 #myForm{
