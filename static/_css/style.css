@@ -1,6 +1,11 @@
 body{
     font-family: "Franklin Gothic Medium";
+<<<<<<< HEAD
     background: linear-gradient(to right, purple, cyan);
+=======
+    background: linear-gradient(rgb(0, 217, 225), rgb(0, 255, 115));
+    background-repeat: no-repeat;
+>>>>>>> eb9e1251e2ad663b6b5b33be513d3a6f1c167bc2
 }
 .head{
     display: flex;
@@ -77,12 +82,12 @@ button:active{
     border-color:#1a2537;
 }
 
-input[type="text"]{
+/*input[type="text"]{
     text-align: center;
     font-size: 15px;
     width: 80%;
     padding: 10px;
-}
+}*/
 input[type="date"]{
     text-align: center;
     font-size: 15px;
@@ -100,4 +105,57 @@ input[type="password"]{
     font-size: 15px;
     width: 80%;
     padding: 10px;
+}
+
+.formulario {
+    width: 300px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'arial';
+    color: white;
+}
+
+.form-ingresar h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid cyan;
+    font-family:'arial';
+    font-size: 18px;
+}
+
+.form-ingresar p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-ingresar a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .btn{
+    width: 100%;
+    background: #00aae4;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-bottom: 12px ;
+    font-size: 16px;
 }
